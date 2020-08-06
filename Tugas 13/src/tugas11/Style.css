@@ -1,0 +1,19 @@
+table {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #000000;
+  }
+  
+  th,
+  td {
+    border: 1px solid #000000;
+  }
+  
+  th {
+    background-color: #aaaaaa;
+  }
+  
+  td {
+    background-color: #ff7f50;
+  }
+  
