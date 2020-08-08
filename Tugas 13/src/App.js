@@ -1,17 +1,19 @@
 import React from "react";
 import "./App.css";
-// import HargaBuah from "./tugas11/HargaBuah";
-import Timer from "./tugas12/Timer";
-import FormBuah from "./tugas14/FormBuahHooks";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./tugas15/Routes";
+import { ThemeProvider } from "./tugas15/ThemeContext";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* <HargaBuah /> */}
-      <FormBuah />
-      <Timer start={101} />
-    </div>
+    <>
+      <Router>
+        <ThemeProvider>
+          <Routes />
+        </ThemeProvider>
+      </Router>
+    </>
   );
-}
+};
 
 export default App;

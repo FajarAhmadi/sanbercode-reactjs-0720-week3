@@ -1,4 +1,20 @@
 .App {
   text-align: center;
   padding-bottom: 50px;
+  min-height: 90vh;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme nav ul {
+  background-color: #1f1f1f;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme nav ul li,
+.dark-theme nav ul li a {
+  color: #ffffff;
 }
